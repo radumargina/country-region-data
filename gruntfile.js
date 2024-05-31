@@ -119,7 +119,7 @@ module.exports = function (grunt) {
 		grunt.file.write(file, output);
 
 		// now generate the corresponding typings file
-		let typingsOutput = `declare module 'country-region-data' {
+		let typingsOutput = `declare module '@radumargina/country-region-data' {
 	export type CountryName = "${countryNames.join('" | "')}";\n`;
 		typingsOutput += `\texport type CountrySlug = "${countryShortCodes.join('" | "')}";\n`;
 		typingsOutput += `\texport type RegionName = string;
