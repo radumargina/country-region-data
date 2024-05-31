@@ -1,5 +1,5 @@
 {
-  "name": "country-region-data",
+  "name": "@radumargina/country-region-data",
   "version": "3.0.0",
   "description": "List of countries, regions, and their shortcodes.",
   "main": "dist/data-umd.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/country-regions/country-region-data.git"
+    "url": "https://github.com/radumargina/country-region-data.git"
   },
   "keywords": [
     "country",
@@ -20,10 +20,7 @@
   ],
   "author": "Ben Keen",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/country-regions/country-region-data/issues"
-  },
-  "homepage": "https://github.com/country-regions/country-region-data",
+  "homepage": "https://github.com/radumargina/country-region-data",
   "devDependencies": {
     "grunt": "^1.1.0",
     "libumd": "^0.7.0",
